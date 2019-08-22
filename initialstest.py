@@ -3,6 +3,7 @@ def get_initials(fullname):
     fullname = fullname.upper()
     fullname = fullname.split()
     initials = ""
+    print(fullname)
 
     for i in fullname:
         initials = initials + i[0][0]
